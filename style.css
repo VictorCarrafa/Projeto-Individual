@@ -1,0 +1,69 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&display=swap'); /* Importação de fonts google, utilizados em h1 e h2 abaixo */
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap'); /* Importação de fonts google, utilizados em p abaixo */
+@font-face {
+    font-family:'karmatic' ;
+    src: url(Fonts/KARMATIC\ ARCAD.ttf) format(truetype);
+} /*Fonte externa baixada, estamos implementando no li abaixo.*/
+
+body {
+    background-image: linear-gradient(to top,#042940,#005C53);/*background-color:#910050ee; /*background-color é a tag de cor de fundo*/ 
+    
+    
+}
+main {
+    background-color: #9FC131; /* Cor dentro do seletor */
+    width: 1000px; /* Largura do pro seletor */
+    border-radius: 10px; /* Borda arredondada e tamnanho em pixels */
+    margin: auto;  /* Vai Centralizar, independente do tamanho da tela*/
+    box-shadow: 5px 5px 15px #1216059a; /* sombra de caixa  - lateral em pixel, baixo em pixel, espalhamento em pixel, cor - referente a cor para trabalhar a sombra, eu seleciono a mesma cordo no texto, e arrasto a bolinha pra baixo com transparencia, um pouco acima da metade*/
+}
+h1 {
+    font-family: 'Pixelify Sans', cursive;
+    font-size: 2.5em;
+    font-weight: 400;
+    font-style: normal;
+    
+    color: #D6D58E; /*Cor do h1*/
+    background-color:#042940;
+    text-align: center;
+    width: 800px;
+    padding: 12px; /* Espaçamento entre borda e conteúdo dentro do seletor */
+    margin: auto;
+    border-radius: 10px;
+    text-shadow: 1px 1px 2px #fffeab7d; /* sombra de texto - lateral em pixel, baixo em pixel, espalhamento em pixel, cor - referente a cor para trabalhar a sombra, eu seleciono a mesma cordo no texto, e arrasto a bolinha pra baixo com transparencia, um pouco acima da metade*/
+}
+h2 {
+    font-family: 'Pixelify Sans', cursive;
+    font-size: 2em;
+    font-weight: 400;
+    font-style: normal;
+
+    color:#042940;
+    background-color:#D6D58E;
+    text-align: left; /* Texto alinha = left esquerda */
+    width: 400px;
+    border-radius: 10px;
+    text-shadow: 1px 1px 2px #010c129c;
+    
+}
+p {
+    font-family: 'Courier Prime', monospace;
+    font-size: 1.3em;
+    font-weight: 400;
+    font-style: oblique;
+    
+    text-align: justify; /*A tag text-align, alinha o texto. */
+    text-indent: 30px; /* Identação do texto do eixo X, colocando valor em px, ou seja, espaçamento da esquerda de ontem o texto irá começar. */
+    border-radius: 5px;
+    background-color: #fff;
+    
+     
+}
+
+li {
+    font-family:'karmatic';
+    font-size: 1em;
+    font-weight: 100;
+    color: #fff;
+}
